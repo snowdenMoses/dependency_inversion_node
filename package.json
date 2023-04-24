@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "github:types/express",
+    "@types/node": "^18.15.3",
+    "concurrently": "^8.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "nodemon": "^2.0.21",
+    "typescript": "^4.9.5"
+  },
+  "name": "testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"tsc -w\" \"nodemon ./dist/server.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
